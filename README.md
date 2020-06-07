@@ -155,4 +155,25 @@ On the other hand, a limitation of this analysis is that the 10-year US Treasury
 
 The following analysis has attempted to investigate a potential future trajectory for the copper producer price index. using US inflation and 10-Year Treasury yield forecasts. Many thanks for reading, and the GitHub repository with associated code and findings can be found [here](https://github.com/mgcodesandstats/economics-time-series).
 
+### Update (7 June 2020)
+
+After having tested additional variables for cointegration with the copper producer price index (see cointegration analysis v2.ipynb), *Total Assets: All Commercial Banks* demonstrated a high degree of cointegration with price.
+
+```
+>>> coin_result_4 = ts.coint(assets, copper_price_index)
+>>> coin_result_4
+
+(-7.030137738227275,
+ 7.273958862435694e-09,
+ array([-3.98404804, -3.3842816 , -3.07775039]))
+```
+
+Specifically, a negative long-run relationship has been observed between the two series with a correlation coefficient of **-0.21**.
+
+Additionally, a 30-period rolling average demonstrates a long-run decline in the percentage of commercial assets held by banks.
+
+![rolling-average](rolling-average.png)
+
+Assuming this trend continues, this could also be evidence for higher copper prices over the longer-term.
+
 *Disclaimer: The above is simply an illustration of time series analysis methods on the topic in question and is presented "as is". None of the above is meant as any form of investment advice, or advice of a professional nature. COVID-19 is an ongoing situation, and the above analysis reflects the author's opinion at the time of writing only - no warranties are made as to the accuracy of the above information for any purpose.*
