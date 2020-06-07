@@ -157,7 +157,7 @@ The following analysis has attempted to investigate a potential future trajector
 
 ### Update (7 June 2020)
 
-After having tested additional variables for cointegration with the copper producer price index (see cointegration analysis v2.ipynb), *Total Assets: All Commercial Banks* demonstrated a high degree of cointegration with price.
+After having tested additional variables for cointegration with the copper producer price index (see [cointegration analysis v2.ipynb](https://github.com/MGCodesandStats/economics-time-series/blob/master/cointegration%20analysis%20v2.ipynb)), *Total Assets: All Commercial Banks* demonstrated a high degree of cointegration with price.
 
 ```
 >>> coin_result_4 = ts.coint(assets, copper_price_index)
