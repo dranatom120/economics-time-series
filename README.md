@@ -24,4 +24,6 @@ Data is sourced from Federal Reserve Economic Data using the [Quandl](https://ww
 
 - [Towards Data Science - CNN: Forecasting the Copper Producer Price Index](https://towardsdatascience.com/cnn-vs-prophet-forecasting-the-copper-producer-price-index-af4da63bd93d)
 
+- [Towards Data Science - Estimating Currency Volatility Using GARCH](https://towardsdatascience.com/estimating-currency-volatility-using-garch-e373cf82179d)
+
 - [Towards Data Science - Forecasting the Copper Producer Price Index with Prophet](https://towardsdatascience.com/forecasting-the-copper-producer-price-index-with-prophet-d570e3baac78)
